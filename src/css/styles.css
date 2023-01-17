@@ -10,11 +10,76 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 0px;
+  padding: 16px;
+
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2, p, span {
+  margin: 0px;
+  padding: 0px;
 }
 
 #search-box {
   font: inherit;
   padding: 8px;
+  width: 240px;
   max-width: 320px;
-  margin-bottom: 16px;
+}
+
+img {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* styles for countryList */
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  padding-top: 36px;
+}
+
+.country-list__name {
+  margin-left: 16px;
+  font: inherit;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* styles for countryCard */
+
+.country-info__wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 36px;
+}
+
+.country-info__name {
+  margin-left: 16px;
+
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.country-info__list-item {
+  padding-top: 36px;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.country-info__list-span {
+  padding-top: 36px;
+
+  font-size: 24px;
+  font-weight: 700;
 }
